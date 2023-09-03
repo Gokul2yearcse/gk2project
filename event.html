@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Event Page</title>
+  <style>
+        
+    /* ... Previous CSS Rules ... */
+    
+    /* Style the navigation bar */
+    .navbar {
+        background-color: #0e0277;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 80px 5px 10px;
+        position: fixed;
+        top: 0;
+        width: 80%;
+        z-index:   100;
+    }
+    
+    .nav-menu {
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .nav-menu li {
+        margin-right: 20px;
+    }
+    
+    .nav-menu li:last-child {
+        margin-right: 0;
+    }
+    
+    .nav-menu a {
+        color: white;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+    
+    .nav-menu a:hover {
+        color: #f1c40f; /* Change color on hover */
+    }
+    
+    /* Add animation to the navigation bar */
+    .navbar {
+        animation: slide-down 0.5s ease;
+    }
+    
+    @keyframes slide-down {
+        0% {
+            transform: translateY(-100%);
+        }
+        100% {
+            transform: translateY(0);
+        }
+    }
+    
+    
+    
+    
+    
+    body, h1, p {
+        margin: 0;
+        padding: 20px;
+    }
+    
+    /* Style the header */
+    header {
+        background-color: #e72d2d;
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .header-box {
+        display: inline-block;
+        border: 2px solid white;
+        padding: 10px 20px;
+        border-radius: 10px;
+    }
+    
+    /* Style the main content */
+    main {
+        text-align: center;
+        margin: 50px;
+    }
+    
+    .info-box {
+        background-color: #f1f1f1;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    
+    /* Style the footer */
+    footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .contact {
+        margin-bottom: 20px;
+    }
+    
+    .social-icons a {
+        margin: 0 10px;
+    }
+    
+    .social-icons img {
+        width: 30px;
+        height: 30px;
+    }
+    
+        </style>
+    </head>
+    <body>
+        <header>
+            
+                <nav class="navbar">
+                    <div class="header-box">
+                        <h1>IETE</h1>
+                        <P>MEMBERSHIP</P>
+                    </div>
+                    <ul class="nav-menu">
+                        <li><a href="C:\iete\projct.html">Home</a></li>
+                        <li><a href="C:\iete\about.html">About</a></li>
+                        <li><a href="#">C:\iete\event\event.html</a></li>
+                        <li><a href="C:\iete\membership2.html">Membership</a></li>
+                        <li><a href="C:\iete\contet\contact-1.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </br>
+        </br>
+    </br>
+    </br>
+    </br>  
+    </br>
+    </br>
+    </br></br>
+  
+  <style>
+    body{
+      padding: 0;
+      margin: 0;
+      flex: auto;
+      background-image: url(https://th.bing.com/th/id/R.a140d1f5eaeaf33d0c36b05f56be3e60?rik=x0Q%2fyWQXiibviA&riu=http%3a%2f%2fi.ytimg.com%2fvi%2f54DVdfEv5mA%2fmaxresdefault.jpg&ehk=5%2bKC3MknWGblmJrTC%2feqjiRUvttQ7k5KeSkzQSGvAbM%3d&risl=&pid=ImgRaw&r=0);
+    }
+    .event {
+      width: 200;
+      height: 100;
+      display: flex;
+      align-items: center;
+      font-weight: 1000;
+      justify-content: center;
+      flex-direction: column;
+      margin-bottom: 20px;
+    }
+    
+    .event img {
+      width: 600px;
+      height: 500px;
+      transition: transform 0.5s ease;
+    }
+    
+    .event-details {
+      font-size: 100;
+      color: blue;
+      display: none;
+      margin-top: 10px;
+    }
+    
+    .event:hover img {
+      transform: translateX(-20px);
+    }
+    
+    .event:hover .event-details {
+      display: block;
+    }
+    .events {
+  margin-top: 20vh;
+}
+
+.events .card {
+  border: 0;
+  padding: 0 20px;
+  margin-bottom: 60px;
+  position: relative;
+}
+
+.events .card-img {
+  width: calc(100% + 60px);
+  margin-left: -30px;
+  overflow: hidden;
+  z-index: 9;
+  border-radius: 0;
+}
+
+.events .card-img img {
+  max-width: 100%;
+  transition: all 0.3s ease-in-out;
+}
+
+.events .card-body {
+  z-index: 10;
+  background: #fff;
+  border: 4px solid #003d99;
+  padding: 10px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  margin-top: -60px;
+  transition: 0.3s;
+}
+
+.events .card-title {
+  font-weight: 7000;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: auto;
+}
+
+.events .card-title a {
+  color: #37423b;
+  transition: 0.3s;
+}
+
+.events .card-text {
+  color: #5e5e5e;
+}
+
+
+  </style>
+</head>
+<body>
+  <div class="card-body" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+    <h5 class="card-title">Webinar on IoT Security(WISE-2022)</h5>
+    <p class="font-italic text-center"> on 30th May, 2022</p>
+    <p class="card-text" style="text-align:center"><b>SETS Chennai &amp; C-DAC Hyderabad in collaboration with ISEA</b></p>
+    <hr>
+    <p class="text-center">All interested members are requested to register at the following link to participate in the webinar</p>
+    <a target="_blank" href="https://infosecawareness.in/wise2022" class="learn-more-btn">Weblink</a>
+    <br>
+    <p class="text-center"><b>Participation certificate will be issued to all the registered participants after attending all the sessions.</b></p>
+    
+    <!-- <img src="./assets/img/events/wirelessCommSeminar.JPG" width="80%" alt="special seminar">
+    <img src="./assets/img/events/rajagopal.jpeg" width="80%" alt="rajagopal">
+    <img src="./assets/img/events/iete24.04.2022.jpeg" width="80%" alt="isf"> -->
+  </div>
+  <div class="event">
+    <img src="http://ietechennai.in/assets/img/events/Slide4.jpeg" alt="Event 1">
+    <div class="event-details">
+      
+      <h1>Event 1</h1>
+      <h1><b>Date: 10th May 2022</h1>
+      <p>Location: ABC Convention Center</b></p>
+    </div>
+  </div>
+  
+  <div class="event">
+    <img src="http://ietechennai.in/assets/img/events/Slide3.jpeg" alt="Event 2">
+    <div class="event-details">
+      <h3><b>Event 2</h3>
+      <p>Date: 15th May 2022</p>
+      <p>Location: XYZ Auditorium</b></p>
+    </div>
+  </div>
+  
+  <div class="event">
+    <img src="http://ietechennai.in/assets/img/events/Slide12.jpeg" alt="Event 3">
+    <div class="event-details">
+      <h3><b>Event 3</h3>
+      <p>Date: 20th May 2022</p>
+      <p>Location: PQR Stadium</b></p>
+    </div>
+  </div>
+  <div class="event">
+    <img src="http://ietechennai.in/assets/img/events/Slide1.jpeg" alt="Event 3">
+    <div class="event-details">
+      <h3><b>Event 4</h3>
+      <p>Date: 20th May 2022</p>
+      <p>Location: PQR Stadium</b></p>
+    </div>
+  </div>
+  <div class="event">
+    <img src="http://ietechennai.in/assets/img/events/Slide11.jpeg" alt="Event 3">
+    <div class="event-details">
+      <h3><b>Event 5</h3>
+      <p>Date: 20th May 2022</p>
+      <p>Location: PQR Stadium</b></p>
+    </div>
+  </div>
+  <div class="event">
+    <img src="http://ietechennai.in/assets/img/events/Slide2.jpeg" alt="Event 3">
+    <div class="event-details">
+      <h3><b>Event 6</h3>
+      <p>Date: 20th May 2022</p>
+      <p>Location: PQR Stadium</b></p>
+    </div>
+  </div>
+  <div class="event">
+    <img src="http://ietechennai.in/assets/img/events/Slide9.jpeg" alt="Event 3">
+    <div class="event-details">
+      <h3><b>Event 7</h3>
+      <p>Date: 20th May 2022</p>
+      <p>Location: PQR Stadium</b></p>
+    </div>
+  </div>
+</body>
+</html>

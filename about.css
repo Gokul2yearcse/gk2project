@@ -1,0 +1,127 @@
+body {
+    background-image: url(download (2).jpg);
+    margin: 0;
+     padding: 0;
+     font-family: Arial, sans-serif;
+     flex: auto;
+ }
+ 
+ .container {
+    
+     
+     background-size: cover;
+     background-position: center;
+     height: 100vh;
+     margin: 0;
+ }
+ 
+ header {
+     text-align: center;
+     padding: 50p%;
+     
+ }
+ 
+ main {
+    
+     flex-direction: column;
+     align-items: center;
+     padding: 5px 0;
+     color: rgb(15, 13, 13);
+ }
+ 
+ .about-content {
+     
+     background-size: 1400px 500px;
+     text-align: center;
+     margin-bottom: 10px;
+     flex: auto;
+ }
+ .b2{
+    align-items: center;
+  
+ }
+ @keyframes textAnimation {
+     0% {
+       opacity: 1;
+       transform: translateY(-20px);
+        
+     }
+     100% {
+       opacity: 4;
+       transform: translateY(0);
+       
+     }
+   }
+   .text {
+     animation: textAnimation 5s ease-in-out ;}
+    
+ 
+ .boxes {
+     background-color:rgba(128, 122, 113, 0.589) ;
+     align-items: center;
+     display:grid;
+     justify-content: center;
+     gap: 20px;
+    
+ }
+ 
+ .box {
+     display: grid;
+     background-color: rgba(255, 255, 255, 0.8);
+     padding: 20px;
+     border-radius: 5px;
+     width: 250px;
+ }
+ 
+ footer {
+ 
+     background-color: rgba(0, 0, 0, 0.1);
+     padding: 20px;
+     justify-content: center;
+     position: relative;
+     bottom: 0;
+     width: 100%;
+ }
+ .teddy{
+     text-align: right;
+     padding-right: 20px ;
+     margin-left: 50%;
+     justify-content: right;
+ }
+ 
+     .social-media-icons {
+         transition: transform 0.4s ease;
+         align-items: center;
+       }
+      
+       .social-media-icons {
+         animation: bounce 0.5s ease-in-out infinite;
+       }
+    
+     
+   
+   
+   .social-media-icons a {
+     margin: 30px 10px;
+   }
+  
+    
+  @keyframes bounce {
+ 
+         0% {
+           transform: translateY(1);
+         }
+         50% {
+           transform: translateY(-20px);
+         }
+         100% {
+           transform: translateY(1);
+         }
+       }
+      
+       .social-media-icons img {
+         position: fixed;
+    
+     width: 30px;
+     height: 30px;
+       }

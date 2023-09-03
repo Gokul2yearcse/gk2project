@@ -1,0 +1,13 @@
+body {
+    background-image: url('https://media.istockphoto.com/id/802751622/video/4k-abstract-particles-background-animation-loopable.jpg?s=640x640&k=20&c=GnMTmlJ1V--wG77ZMNmuB-hHaVPXkGI7k7GGcEraNO4=');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   transition-delay: 4s;
+}
+.container {
+    text-align: center;
+    padding-top: 200px;
+    font-size: 24px;
+    transition-delay: 4s;
+}
